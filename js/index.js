@@ -94,17 +94,17 @@ operationButtons.forEach((button) => {
   });
 });
 
-equalsButton.addEventListener("click", (button) => {
+equalsButton.addEventListener("click", (_button) => {
   calculator.compute();
   calculator.updateDisplay();
 });
 
-allClearButton.addEventListener("click", (button) => {
+allClearButton.addEventListener("click", (_button) => {
   calculator.clear();
   calculator.updateDisplay();
 });
 
-deleteButton.addEventListener("click", (button) => {
+deleteButton.addEventListener("click", (_button) => {
   calculator.delete();
   calculator.updateDisplay();
 });
