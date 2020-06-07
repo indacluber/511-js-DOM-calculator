@@ -1,0 +1,44 @@
+body {
+  max-width: 200px;
+  margin: auto;
+}
+
+.previus-display,
+.display {
+  text-align: end;
+  height: 20px;
+  width: 150px;
+  border: 1px solid #000000;
+  background-color: #000;
+  color: #ffffff;
+}
+
+.opers {
+  border: 1px solid #000000;
+  width: 150px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.double-button {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: orangered;
+}
+
+.double-button-eq {
+  background-color: orangered;
+}
+.button {
+  background-color: orange;
+  outline: none;
+}
+.button-oper {
+  background-color: orangered;
+}
+.button-zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: orange;
+}
